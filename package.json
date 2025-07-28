@@ -1,0 +1,11 @@
+{
+  "name": "i18n-lite-switch",
+  "version": "1.0.0",
+  "description": "A lightweight i18n helper for bilingual websites (Arabic/English) with RTL/LTR switching.",
+  "main": "src/i18n.js",
+  "type": "module",
+  "scripts": {},
+  "keywords": ["i18n", "rtl", "ltr", "arabic", "english", "language-switch", "frontend"],
+  "author": "Mohamed Nader",
+  "license": "MIT"
+}

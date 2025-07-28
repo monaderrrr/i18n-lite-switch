@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>i18n Lite Demo</title>
+    <script type="module">
+      import { initLang, switchLang } from "../src/i18n.js";
+
+      window.switchLang = switchLang;
+      window.addEventListener("DOMContentLoaded", initLang);
+    </script>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+      }
+      [dir="rtl"] {
+        text-align: right;
+      }
+      [dir="ltr"] {
+        text-align: left;
+      }
+      button{
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5pc;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 data-i18n="welcome"></h1>
+    <p data-i18n="about"></p>
+    <p data-i18n="contact"></p>
+
+    <hr />
+    <button onclick="switchLang('ar')">🇸🇦 Arabic</button>
+    <button onclick="switchLang('en')">🇺🇸 English</button>
+  </body>
+</html>
