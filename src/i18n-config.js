@@ -1,3 +1,4 @@
+// File Const in Js
 export const translations = {
   en: {
     welcome: "Welcome to your site",
