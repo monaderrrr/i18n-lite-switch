@@ -24,3 +24,5 @@ export function initLang() {
   switchLang(currentLang);
 }
 // End File
+// 
+// 
