@@ -1,5 +1,4 @@
-// File Const in Js
-// Example Api
+
 export const translations = {
   en: {
     welcome: "Welcome to your site",
