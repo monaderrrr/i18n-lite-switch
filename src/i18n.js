@@ -23,4 +23,3 @@ export function switchLang(lang) {
 export function initLang() {
   switchLang(currentLang);
 }
-// End File
