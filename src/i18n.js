@@ -25,4 +25,3 @@ export function initLang() {
 }
 // End File
 // 
-// 
