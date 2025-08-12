@@ -1,4 +1,6 @@
 
+
+
 export const translations = {
   en: {
     welcome: "Welcome to your site",
