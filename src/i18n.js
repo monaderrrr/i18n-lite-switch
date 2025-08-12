@@ -4,7 +4,6 @@ let currentLang = localStorage.getItem('lang') || 'en';
 export function t(key) {
   return translations[currentLang][key] || key;
 }
-
 export function switchLang(lang) {
   currentLang = lang;
   localStorage.setItem('lang', lang);
