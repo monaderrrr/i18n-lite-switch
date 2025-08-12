@@ -1,6 +1,4 @@
 
-
-
 import { translations } from './i18n-config.js';
 let currentLang = localStorage.getItem('lang') || 'en';
 export function t(key) {
