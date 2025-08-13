@@ -13,6 +13,7 @@ export function switchLang(lang) {
     el.textContent = t(key);
   });
 }
+
 export function initLang() {
   switchLang(currentLang);
 }
