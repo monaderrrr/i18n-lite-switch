@@ -17,3 +17,4 @@ export function initLang() {
   switchLang(currentLang);
 }
 
+
