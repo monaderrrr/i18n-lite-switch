@@ -10,6 +10,3 @@ export const translations = {
     contact: "اتصل بنا",
   },
 };
-
-
-
