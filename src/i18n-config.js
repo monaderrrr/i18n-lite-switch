@@ -1,6 +1,5 @@
 export const translations = {
-  en: {
-    
+  en: {   
     welcome: "Welcome to your site",
     about: "About Us",
     contact: "Contact Us",
