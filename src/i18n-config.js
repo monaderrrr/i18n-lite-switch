@@ -9,4 +9,4 @@ export const translations = {
     about: "من نحن",
     contact: "اتصل بنا",
   },
-};
+}
